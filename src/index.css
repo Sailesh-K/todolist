@@ -1,0 +1,101 @@
+
+
+h3{
+  font-size: 3rem;
+  color: #03c879;
+}
+
+.todo-container {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.new-task {
+  margin-bottom: 20px;
+}
+
+.new-task input {
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border-color: #03c879;
+}
+
+.new-task button{
+  background-color: #03c879;
+  color: #fff;
+  border:none;
+  border-radius: 10px;
+  font-size: medium;
+  padding:10px;
+  height:40px; 
+  min-width: 20px;
+}
+
+.new-task form{
+  padding: 40px;
+}
+
+.tasks-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.task-card {
+  background: #aaffdd;
+  text-align: left;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-content h4 {
+  margin: 0 0 10px 0;
+}
+
+.task-content p {
+  margin: 0 0 10px 0;
+  color: #212121;
+}
+
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-actions form {
+  margin-right: 10px;
+}
+
+form [value=all]{
+  background-color: white;
+}
+
+form [value=completed]{
+  background-color: rgb(36, 221, 144);
+}
+
+.delete-button {
+  background-color: rgb(198, 59, 59);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.edit-button {
+  background-color: rgb(208, 156, 61);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 55px;
+}
